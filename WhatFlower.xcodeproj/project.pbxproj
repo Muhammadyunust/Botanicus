@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,9 +13,22 @@
 		8790F30F23CF47AF00DABEB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8790F30D23CF47AF00DABEB4 /* Main.storyboard */; };
 		8790F31123CF47B100DABEB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8790F31023CF47B100DABEB4 /* Assets.xcassets */; };
 		8790F31423CF47B100DABEB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8790F31223CF47B100DABEB4 /* LaunchScreen.storyboard */; };
+		87A6BA0A23E8B52D0078A6D6 /* FlowerImageClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 87A6BA0923E8B52D0078A6D6 /* FlowerImageClassifier.mlmodel */; };
+		8D94EC6223ECA11E00B52432 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D94EC6123ECA11E00B52432 /* MainVC.swift */; };
+		8D94EC6423ECA16F00B52432 /* ManualVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D94EC6323ECA16F00B52432 /* ManualVC.swift */; };
+		8D94EC6623ECA48B00B52432 /* PlayGameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D94EC6523ECA48B00B52432 /* PlayGameVC.swift */; };
+		8D94EC6823ECBBEA00B52432 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D94EC6723ECBBEA00B52432 /* art.scnassets */; };
+		8D94EC6A23ECBC7E00B52432 /* vBotanika.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8D94EC6923ECBC7E00B52432 /* vBotanika.mp4 */; };
+		8D94EC6E23ECBCB000B52432 /* vCotton.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8D94EC6B23ECBCAC00B52432 /* vCotton.mp4 */; };
+		8D94EC6F23ECBCB000B52432 /* vLeaf.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8D94EC6C23ECBCAE00B52432 /* vLeaf.mp4 */; };
+		8D94EC7023ECBCB000B52432 /* vMoement.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8D94EC6D23ECBCB000B52432 /* vMoement.mp4 */; };
+		8D94EC7223ECBD3800B52432 /* BotanicusVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D94EC7123ECBD3800B52432 /* BotanicusVC.swift */; };
+		BA8E391E0FB4809C9CB9AA86 /* Pods_WhatFlower.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4A95ABB97D16DEE1DEC0617 /* Pods_WhatFlower.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02FAFD165AA1FE55F826A041 /* Pods-WhatFlower.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatFlower.release.xcconfig"; path = "Target Support Files/Pods-WhatFlower/Pods-WhatFlower.release.xcconfig"; sourceTree = "<group>"; };
+		0C1D4CADDF760BD34F83C711 /* Pods-WhatFlower.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatFlower.debug.xcconfig"; path = "Target Support Files/Pods-WhatFlower/Pods-WhatFlower.debug.xcconfig"; sourceTree = "<group>"; };
 		8790F30423CF47AF00DABEB4 /* WhatFlower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatFlower.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8790F30723CF47AF00DABEB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8790F30923CF47AF00DABEB4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +37,17 @@
 		8790F31023CF47B100DABEB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8790F31323CF47B100DABEB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8790F31523CF47B100DABEB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87A6BA0923E8B52D0078A6D6 /* FlowerImageClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = FlowerImageClassifier.mlmodel; sourceTree = "<group>"; };
+		8D94EC6123ECA11E00B52432 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		8D94EC6323ECA16F00B52432 /* ManualVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualVC.swift; sourceTree = "<group>"; };
+		8D94EC6523ECA48B00B52432 /* PlayGameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayGameVC.swift; sourceTree = "<group>"; };
+		8D94EC6723ECBBEA00B52432 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		8D94EC6923ECBC7E00B52432 /* vBotanika.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = vBotanika.mp4; sourceTree = "<group>"; };
+		8D94EC6B23ECBCAC00B52432 /* vCotton.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = vCotton.mp4; sourceTree = "<group>"; };
+		8D94EC6C23ECBCAE00B52432 /* vLeaf.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = vLeaf.mp4; sourceTree = "<group>"; };
+		8D94EC6D23ECBCB000B52432 /* vMoement.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = vMoement.mp4; sourceTree = "<group>"; };
+		8D94EC7123ECBD3800B52432 /* BotanicusVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotanicusVC.swift; sourceTree = "<group>"; };
+		F4A95ABB97D16DEE1DEC0617 /* Pods_WhatFlower.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhatFlower.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA8E391E0FB4809C9CB9AA86 /* Pods_WhatFlower.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +67,8 @@
 			children = (
 				8790F30623CF47AF00DABEB4 /* WhatFlower */,
 				8790F30523CF47AF00DABEB4 /* Products */,
+				AF87CC6B6CE65843EE6B204E /* Pods */,
+				F42C20F7833B0F25F8E9F25C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +83,11 @@
 		8790F30623CF47AF00DABEB4 /* WhatFlower */ = {
 			isa = PBXGroup;
 			children = (
+				8D94EC6B23ECBCAC00B52432 /* vCotton.mp4 */,
+				8D94EC6C23ECBCAE00B52432 /* vLeaf.mp4 */,
+				8D94EC6D23ECBCB000B52432 /* vMoement.mp4 */,
+				8D94EC6923ECBC7E00B52432 /* vBotanika.mp4 */,
+				8D94EC6723ECBBEA00B52432 /* art.scnassets */,
 				8790F30723CF47AF00DABEB4 /* AppDelegate.swift */,
 				8790F30923CF47AF00DABEB4 /* SceneDelegate.swift */,
 				8790F30B23CF47AF00DABEB4 /* ViewController.swift */,
@@ -63,8 +95,30 @@
 				8790F31023CF47B100DABEB4 /* Assets.xcassets */,
 				8790F31223CF47B100DABEB4 /* LaunchScreen.storyboard */,
 				8790F31523CF47B100DABEB4 /* Info.plist */,
+				87A6BA0923E8B52D0078A6D6 /* FlowerImageClassifier.mlmodel */,
+				8D94EC6123ECA11E00B52432 /* MainVC.swift */,
+				8D94EC6323ECA16F00B52432 /* ManualVC.swift */,
+				8D94EC6523ECA48B00B52432 /* PlayGameVC.swift */,
+				8D94EC7123ECBD3800B52432 /* BotanicusVC.swift */,
 			);
 			path = WhatFlower;
+			sourceTree = "<group>";
+		};
+		AF87CC6B6CE65843EE6B204E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C1D4CADDF760BD34F83C711 /* Pods-WhatFlower.debug.xcconfig */,
+				02FAFD165AA1FE55F826A041 /* Pods-WhatFlower.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F42C20F7833B0F25F8E9F25C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4A95ABB97D16DEE1DEC0617 /* Pods_WhatFlower.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +128,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8790F31823CF47B100DABEB4 /* Build configuration list for PBXNativeTarget "WhatFlower" */;
 			buildPhases = (
+				196134E0344ABACDC16DEF37 /* [CP] Check Pods Manifest.lock */,
 				8790F30023CF47AF00DABEB4 /* Sources */,
 				8790F30123CF47AF00DABEB4 /* Frameworks */,
 				8790F30223CF47AF00DABEB4 /* Resources */,
+				23F431ADB66A1BC710E1D364 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,19 +182,71 @@
 			buildActionMask = 2147483647;
 			files = (
 				8790F31423CF47B100DABEB4 /* LaunchScreen.storyboard in Resources */,
+				8D94EC6E23ECBCB000B52432 /* vCotton.mp4 in Resources */,
+				8D94EC6F23ECBCB000B52432 /* vLeaf.mp4 in Resources */,
+				8D94EC6823ECBBEA00B52432 /* art.scnassets in Resources */,
 				8790F31123CF47B100DABEB4 /* Assets.xcassets in Resources */,
+				8D94EC6A23ECBC7E00B52432 /* vBotanika.mp4 in Resources */,
+				8D94EC7023ECBCB000B52432 /* vMoement.mp4 in Resources */,
 				8790F30F23CF47AF00DABEB4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		196134E0344ABACDC16DEF37 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WhatFlower-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		23F431ADB66A1BC710E1D364 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WhatFlower/Pods-WhatFlower-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WhatFlower/Pods-WhatFlower-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WhatFlower/Pods-WhatFlower-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8790F30023CF47AF00DABEB4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D94EC6423ECA16F00B52432 /* ManualVC.swift in Sources */,
+				87A6BA0A23E8B52D0078A6D6 /* FlowerImageClassifier.mlmodel in Sources */,
+				8D94EC6223ECA11E00B52432 /* MainVC.swift in Sources */,
 				8790F30C23CF47AF00DABEB4 /* ViewController.swift in Sources */,
+				8D94EC6623ECA48B00B52432 /* PlayGameVC.swift in Sources */,
+				8D94EC7223ECBD3800B52432 /* BotanicusVC.swift in Sources */,
 				8790F30823CF47AF00DABEB4 /* AppDelegate.swift in Sources */,
 				8790F30A23CF47AF00DABEB4 /* SceneDelegate.swift in Sources */,
 			);
@@ -282,15 +390,17 @@
 		};
 		8790F31923CF47B100DABEB4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C1D4CADDF760BD34F83C711 /* Pods-WhatFlower.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 67LSQX9G75;
 				INFOPLIST_FILE = WhatFlower/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.shakhzodbek.WhatFlower;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shakhzodbek.WhatFlowers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -299,15 +409,17 @@
 		};
 		8790F31A23CF47B100DABEB4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02FAFD165AA1FE55F826A041 /* Pods-WhatFlower.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 67LSQX9G75;
 				INFOPLIST_FILE = WhatFlower/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.shakhzodbek.WhatFlower;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shakhzodbek.WhatFlowers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -1,0 +1,77 @@
+{
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  },
+  "resources" : [
+    {
+      "filename" : "Cell.arreferenceimage"
+    },
+    {
+      "filename" : "vBotanika.arreferenceimage"
+    },
+    {
+      "filename" : "vCotton.arreferenceimage"
+    },
+    {
+      "filename" : "vLeaf.arreferenceimage"
+    },
+    {
+      "filename" : "vMoement.arreferenceimage"
+    },
+    {
+      "filename" : "барбарис.arreferenceimage"
+    },
+    {
+      "filename" : "боярышник.arreferenceimage"
+    },
+    {
+      "filename" : "гармала.arreferenceimage"
+    },
+    {
+      "filename" : "ирис.arreferenceimage"
+    },
+    {
+      "filename" : "карагач.arreferenceimage"
+    },
+    {
+      "filename" : "клевер луговой.arreferenceimage"
+    },
+    {
+      "filename" : "коровяк джунгарский.arreferenceimage"
+    },
+    {
+      "filename" : "Насекомоядные.arreferenceimage"
+    },
+    {
+      "filename" : "облепиха.arreferenceimage"
+    },
+    {
+      "filename" : "пастушья сумка.arreferenceimage"
+    },
+    {
+      "filename" : "пион.arreferenceimage"
+    },
+    {
+      "filename" : "подорожник.arreferenceimage"
+    },
+    {
+      "filename" : "полынь.arreferenceimage"
+    },
+    {
+      "filename" : "пшеница.arreferenceimage"
+    },
+    {
+      "filename" : "ревень.arreferenceimage"
+    },
+    {
+      "filename" : "рябчик.arreferenceimage"
+    },
+    {
+      "filename" : "чина посевная.arreferenceimage"
+    },
+    {
+      "filename" : "эремурус.arreferenceimage"
+    }
+  ]
+}
